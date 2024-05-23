@@ -1,0 +1,15 @@
+.skip-link {
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+}
+   
+.skip-link:focus {
+top: 0px;
+left: 0px;
+width: auto;
+height: auto;
+}
